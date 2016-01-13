@@ -76,6 +76,40 @@
 		fi \
 	}; f"
 
+# dakala
+st = status
+; status of just the current folder (and subfolders)
+std = status .
+; show just the current branch
+b = rev-parse --abbrev-ref HEAD
+br = branch
+; show all branches, including remote
+bra = branch --all
+; list remotes
+rem = remote -v
+; diff and patch
+df = diff
+; show the diff of what's staged
+dfc = diff --cached
+; show only the list of filenames
+dfn = diff --name-only
+; commits
+co = checkout
+ci = commit
+cia = commit -a
+chp = cherry-pick
+; rebase
+; interactive rebase: reorder, reword, zap, and combine commits.
+rebi = rebase -i
+; stash
+sa = stash
+sap = stash pop
+sal = stash list
+; show numbered stash: 'git sas 1' shows stash number 1.
+sas = !sh -c 'git stash show -v stash@{$1}' -
+; coloured, pretty printed log
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
@@ -101,29 +135,30 @@
 	precomposeunicode = false
 
 [color]
-
-	# Use colors in Git commands that are capable of colored output when
-	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
-	ui = auto
+diff = auto
+status = auto
+branch = auto
+interactive = auto
+ui = auto
+pager = true
 
 [color "branch"]
-
-	current = yellow reverse
-	local = yellow
-	remote = green
+current = yellow reverse
+local = yellow
+remote = green
 
 [color "diff"]
-
-	meta = yellow bold
-	frag = magenta bold # line info
-	old = red # deletions
-	new = green # additions
+meta = yellow bold
+frag = magenta bold
+old = red
+new = green
 
 [color "status"]
-
-	added = yellow
-	changed = green
-	untracked = cyan
+added = green
+changed = yellow
+updated = magenta bold
+untracked = red bold
+header = cyan bold
 
 [diff]
 
@@ -143,6 +178,7 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	conflictstyle = diff3
 
 [push]
 
