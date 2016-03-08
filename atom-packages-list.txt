@@ -14,14 +14,13 @@ highlight-selected
 linter
 linter-markdown
 linter-php
-linter-phpcs
 merge-conflicts
 minimap
 minimap-highlight-selected
 linter-htmlhint
 linter-csslint
 linter-jshint
-package-generator
+open-recent
 pigments
 project-manager
 wordpress-api
