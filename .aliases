@@ -148,6 +148,9 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
+# composer
+alias composer="php /usr/local/bin/composer.phar"
+
 # Laravel Homestead
-alias vm="ssh vagrant@127.0.0.1 -p 2222"
-alias vup="cd ~/Homestead/ && vagrant up"
+# alias vm="ssh vagrant@127.0.0.1 -p 2222"
+# alias vup="cd ~/Homestead/ && vagrant up"

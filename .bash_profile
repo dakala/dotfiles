@@ -51,9 +51,16 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # init z https://github.com/rupa/z
 . ~/z/z.sh
 
+# Homebrew auth
+export HOMEBREW_GITHUB_API_TOKEN="dd6967dab67d82cae9c62962df282af4ce73f3d3"
+
+# update path
+export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="$PATH:/Users/dakala/.composer/vendor/bin"
+
 # golang
 export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
-
