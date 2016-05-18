@@ -149,7 +149,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # composer
-alias composer="php /usr/local/bin/composer.phar"
+alias composer="php /usr/local/bin/composer"
 
 # Laravel Homestead
 # alias vm="ssh vagrant@127.0.0.1 -p 2222"
