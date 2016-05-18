@@ -81,6 +81,14 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ./brew.sh
 ```
 
+### Install other dependencies
+
+You may want to install other dependencies like git completion (see install-deps.sh):
+
+```bash
+./install-deps.sh
+```
+
 ## Feedback
 
 Suggestions/improvements
