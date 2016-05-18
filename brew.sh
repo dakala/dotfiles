@@ -34,8 +34,8 @@ brew install bash-completion2
 
 # dakala - Add the new shell to the list of legit shells
 sudo bash -c "echo /usr/local/bin/bash >> /private/etc/shells"
-# dakala - Change the shell for the user
-sudo chsh -s /usr/local/bin/bash
+# dakala - Change the shell for the user - no need to do: sudo chsh -s /usr/local/bin/bash????
+chsh -s /usr/local/bin/bash
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
