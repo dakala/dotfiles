@@ -64,6 +64,46 @@ brew install zopfli
 brew install go
 
 # More binaries 
+# Install cask
+brew tap caskroom/cask
+
+# Install cask packages
+# System tools
+brew cask install iterm2
+brew cask install fuse
+brew cask install sshfs
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+
+brew cask install google-chrome
+brew cask install colloquy
+
+brew cask install balsamiq-mockups
+brew cask install gitkraken
+brew cask install evernote
+brew cask install sublime-text
+brew cask install visual-studio-code
+brew cask install phpstorm
+brew cask install mysqlworkbench
+brew cask install sequel-pro
+brew cask install skype
+brew cask install the-unarchiver
+brew cask install ibackupbot
+brew cask install visual-paradigm-ce
+
+# media
+brew cask install airparrot
+brew cask install amazon-music
+brew cask install vlc
+brew cask install bbc-iplayer-downloads
+brew cask install transmission
+
+# languages & tools
+brew cask install go-server
+brew cask install go-agent
+brew cask install java
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
