@@ -154,3 +154,7 @@ alias composer="php /usr/local/bin/composer"
 # Laravel Homestead
 # alias vm="ssh vagrant@127.0.0.1 -p 2222"
 # alias vup="cd ~/Homestead/ && vagrant up"
+
+alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt'"
+alias drupalbp="phpcs --standard=DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt,md'"
+alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt,md'"
