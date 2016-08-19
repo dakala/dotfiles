@@ -70,8 +70,6 @@ brew tap caskroom/cask
 # Install cask packages
 # System tools
 brew cask install iterm2
-# brew cask install fuse
-# brew cask install sshfs
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
@@ -79,6 +77,7 @@ brew cask install vagrant-manager
 brew cask install google-chrome
 brew cask install colloquy
 
+brew cask install araxis-merge
 brew cask install balsamiq-mockups
 brew cask install gitkraken
 brew cask install evernote
