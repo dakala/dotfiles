@@ -61,9 +61,9 @@ brew install ssh-copy-id
 brew install tree
 brew install webkit2png
 brew install zopfli
-brew install go
+#brew install go
 
-# More binaries 
+# More binaries
 # Install cask
 brew tap caskroom/cask
 
@@ -75,11 +75,11 @@ brew cask install vagrant
 brew cask install vagrant-manager
 
 brew cask install google-chrome
-brew cask install colloquy
+#brew cask install colloquy
 
 brew cask install araxis-merge
 brew cask install balsamiq-mockups
-brew cask install gitkraken
+#brew cask install gitkraken
 brew cask install evernote
 brew cask install sublime-text
 brew cask install visual-studio-code
@@ -90,19 +90,24 @@ brew cask install skype
 brew cask install the-unarchiver
 brew cask install ibackupbot
 brew cask install visual-paradigm-ce
+brew cask install ghost
+brew cask install atom
+brew cask install macdown
+brew cask install sourcetree
+brew cask install skitch
 
 # media
 brew cask install airparrot
 brew cask install amazon-music
 brew cask install vlc
-brew cask install bbc-iplayer-downloads
+#brew cask install bbc-iplayer-downloads
+brew cask install recordit
 brew cask install transmission
 
 # languages & tools
-brew cask install go-server
-brew cask install go-agent
+#brew cask install go-server
+#brew cask install go-agent
 brew cask install java
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
