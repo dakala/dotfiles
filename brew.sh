@@ -69,8 +69,11 @@ brew install woff2
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
+brew install dnsmasq
 brew install git
+brew install go
 brew install lynx
+brew install node
 brew install p7zip
 brew install rename
 brew install rhino
@@ -79,8 +82,8 @@ brew install rlwrap
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
+brew install yarn
 brew install zopfli
-brew install go
 
 # More binaries
 # Install cask
