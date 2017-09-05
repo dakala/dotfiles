@@ -49,4 +49,4 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Custom commands: dakala
 # init z https://github.com/rupa/z
-#. ~/z/z.sh
+ ~/z/z.sh
