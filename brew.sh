@@ -95,6 +95,7 @@ brew cask install atom
 brew cask install macdown
 brew cask install sourcetree
 brew cask install skitch
+brew cask install sqlitebrowser
 
 # media
 brew cask install airparrot
