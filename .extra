@@ -6,3 +6,62 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="dejiakala@gmail.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+git config --global core.excludesfile ~/.gitignore
+git config --global core.safecrlf false
+git config --global core.repositoryformatversion 0
+git config --global core.filemode false
+
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global color.interactive auto
+git config --global color.ui auto
+git config --global color.pager true
+
+git config --global color.branch.current "yellow reverse"
+git config --global color.branch.local yellow
+git config --global color.branch.remote green
+
+git config --global color.diff.meta "yellow bold"
+git config --global color.diff.frag "magenta bold"
+git config --global color.diff.old red
+git config --global color.diff.new green
+
+git config --global color.status.added green
+git config --global color.status.changed yellow
+git config --global color.status.updated "magenta bold"
+git config --global color.status.untracked "red bold"
+git config --global color.status.header "cyan bold"
+
+git config --global apply.whitespace nowarn
+
+git config --global alias.st status
+git config --global alias.std "status ."
+git config --global alias.b "rev-parse --abbrev-ref HEAD"
+git config --global alias.br branch
+git config --global alias.bra "branch --all"
+git config --global alias.rem "remote -v"
+git config --global alias.df diff
+git config --global alias.dfc "diff --cached"
+git config --global alias.dfn "diff --name-only"
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.cia commit -a
+git config --global alias.chp "cherry-pick"
+git config --global alias.rebi "rebase -i"
+git config --global alias.sa stash
+git config --global alias.sap stash pop
+git config --global alias.sal stash list
+git config --global alias.sas "!sh -c 'git stash show -v stash@{$1}' -"
+git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+git config --global alias.ls 'log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate'
+git config --global alias.ll 'log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat'
+git config --global alias.lnc 'log --pretty=format:"%h\\ %s\\ [%cn]"'
+git config --global alias.lds 'log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short'
+git config --global alias.ld 'log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative'
+
+git config --global alias.aliases "config --get-regexp alias.*"
+git config --global alias.logtree "log --graph --oneline --decorate --all"
+git config --global merge.conflictstyle diff3
+
