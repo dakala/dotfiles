@@ -105,6 +105,7 @@ brew cask install phpstorm
 brew cask install sequel-pro
 brew cask install skitch
 brew cask install skype
+brew cask install slack
 brew cask install sourcetree
 brew cask install sqlitebrowser
 brew cask install sublime-text
