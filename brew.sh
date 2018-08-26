@@ -71,9 +71,9 @@ brew install ack
 brew install dark-mode
 brew install dnsmasq
 brew install git
-# brew install go
+brew install go
 brew install lynx
-brew install mariadb
+# brew install mariadb
 brew install mongodb
 brew install node
 brew install p7zip
@@ -100,6 +100,7 @@ brew cask install araxis-merge
 brew cask install atom
 brew cask install balsamiq-mockups
 brew cask install evernote
+brew cask install firefox
 brew cask install ghost
 brew cask install google-chrome
 # brew cask install ibackupbot
@@ -116,9 +117,9 @@ brew cask install sourcetree
 brew cask install sqlitebrowser
 brew cask install sublime-text
 brew cask install the-unarchiver
-# brew cask install vagrant
-# brew cask install vagrant-manager
-# brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install virtualbox
 brew cask install visual-paradigm-ce
 brew cask install visual-studio-code
 
@@ -131,8 +132,8 @@ brew cask install transmission
 brew cask install vlc
 
 # languages & tools
-# brew cask install go-agent
-# brew cask install go-server
+brew cask install go-agent
+brew cask install go-server
 brew cask install java
 
 # Remove outdated versions from the cellar.
