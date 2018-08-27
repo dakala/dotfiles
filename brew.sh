@@ -101,7 +101,7 @@ brew cask install atom
 brew cask install balsamiq-mockups
 brew cask install evernote
 brew cask install firefox
-brew cask install ghost
+# brew cask install ghost
 brew cask install google-chrome
 # brew cask install ibackupbot
 brew cask install iterm2
