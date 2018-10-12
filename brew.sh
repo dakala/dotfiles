@@ -49,12 +49,6 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
-# Install RingoJS and Narwhal.
-# Note that the order in which these are installed is important;
-# see http://git.io/brew-narwhal-ringo.
-# brew install ringojs
-# brew install narwhal
-
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
@@ -63,7 +57,6 @@ brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
-# brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -78,7 +71,7 @@ brew install dnsmasq
 brew install git
 brew install go
 brew install lynx
-# brew install mariadb
+brew install mariadb
 brew install mongodb
 brew install node
 brew install p7zip
@@ -106,25 +99,22 @@ brew cask install atom
 brew cask install balsamiq-mockups
 brew cask install evernote
 brew cask install firefox
-# brew cask install ghost
 brew cask install google-chrome
-# brew cask install ibackupbot
 brew cask install iterm2
 brew cask install macdown
 brew cask install mysqlworkbench
-# brew cask install phpstorm
 brew cask install robo-3t
 brew cask install sequel-pro
 brew cask install skitch
 brew cask install skype
-# brew cask install slack
+brew cask install slack
 brew cask install sourcetree
 brew cask install sqlitebrowser
 brew cask install sublime-text
 brew cask install the-unarchiver
-brew cask install vagrant
-brew cask install vagrant-manager
-brew cask install virtualbox
+# brew cask install vagrant
+# brew cask install vagrant-manager
+# brew cask install virtualbox
 brew cask install visual-paradigm-ce
 brew cask install visual-studio-code
 
