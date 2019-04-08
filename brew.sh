@@ -69,7 +69,8 @@ brew install ack
 brew install dark-mode
 brew install dnsmasq
 brew install git
-brew install go
+# brew install go
+brew install gradle
 brew install lynx
 brew install mariadb
 brew install mongodb
@@ -82,6 +83,7 @@ brew install rlwrap
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
+brew install watchman
 brew install yarn
 brew install zopfli
 
@@ -91,11 +93,11 @@ brew tap caskroom/cask
 
 # Install cask packages
 # System tools
-brew cask install android-platform-tools
-brew cask install android-sdk
-brew cask install android-studio
+# brew cask install android-platform-tools
+# brew cask install android-sdk
+# brew cask install android-studio
 brew cask install araxis-merge
-brew cask install atom
+# brew cask install atom
 brew cask install balsamiq-mockups
 brew cask install evernote
 brew cask install firefox
@@ -107,7 +109,7 @@ brew cask install robo-3t
 brew cask install sequel-pro
 brew cask install skitch
 brew cask install skype
-brew cask install slack
+# brew cask install slack
 brew cask install sourcetree
 brew cask install sqlitebrowser
 brew cask install sublime-text
@@ -121,7 +123,7 @@ brew cask install visual-studio-code
 # media
 brew cask install airparrot
 brew cask install amazon-music
-#brew cask install bbc-iplayer-downloads
+# brew cask install bbc-iplayer-downloads
 brew cask install recordit
 brew cask install transmission
 brew cask install vlc
