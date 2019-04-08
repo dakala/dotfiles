@@ -129,8 +129,8 @@ brew cask install transmission
 brew cask install vlc
 
 # languages & tools
-brew cask install go-agent
-brew cask install go-server
+# brew cask install go-agent
+# brew cask install go-server
 brew cask install java
 
 # Remove outdated versions from the cellar.
