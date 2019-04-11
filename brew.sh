@@ -93,8 +93,8 @@ brew tap caskroom/cask
 
 # Install cask packages
 # System tools
-# brew cask install android-platform-tools
-# brew cask install android-sdk
+brew cask install android-platform-tools
+brew cask install android-sdk
 # brew cask install android-studio
 brew cask install araxis-merge
 # brew cask install atom
