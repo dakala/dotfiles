@@ -70,6 +70,7 @@ brew install dark-mode
 brew install dnsmasq
 brew install git
 # brew install go
+brew install gpg1
 brew install gradle
 brew install lynx
 brew install mariadb
