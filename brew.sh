@@ -72,6 +72,7 @@ brew install git
 # brew install go
 brew install gpg1
 brew install gradle
+brew install htop
 brew install lynx
 brew install mariadb
 brew install mongodb
