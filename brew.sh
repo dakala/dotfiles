@@ -66,7 +66,7 @@ brew install woff2
 
 # Install other useful binaries.
 brew install ack
-brew install dark-mode
+# brew install dark-mode
 brew install dnsmasq
 brew install git
 # brew install go
@@ -97,7 +97,7 @@ brew tap caskroom/cask
 # System tools
 brew cask install android-platform-tools
 brew cask install android-sdk
-# brew cask install android-studio
+brew cask install android-studio
 brew cask install araxis-merge
 # brew cask install atom
 brew cask install balsamiq-mockups
@@ -116,9 +116,9 @@ brew cask install sourcetree
 brew cask install sqlitebrowser
 brew cask install sublime-text
 brew cask install the-unarchiver
-# brew cask install vagrant
-# brew cask install vagrant-manager
-# brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install virtualbox
 brew cask install visual-paradigm-ce
 brew cask install visual-studio-code
 
