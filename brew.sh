@@ -131,6 +131,7 @@ brew cask install amazon-music
 brew cask install recordit
 brew cask install transmission
 brew cask install vlc
+brew cask install whatsapp
 
 # languages & tools
 # brew cask install go-agent
