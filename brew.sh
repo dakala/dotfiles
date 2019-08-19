@@ -107,6 +107,7 @@ brew cask install google-chrome
 brew cask install iterm2
 brew cask install macdown
 brew cask install mysqlworkbench
+brew cask install phpstorm
 brew cask install robo-3t
 brew cask install sequel-pro
 brew cask install skitch
@@ -121,6 +122,7 @@ brew cask install vagrant-manager
 brew cask install virtualbox
 brew cask install visual-paradigm-ce
 brew cask install visual-studio-code
+brew cask install webstorm
 
 # media
 brew cask install airparrot
