@@ -5,5 +5,4 @@
 
 cd ~ && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer && composer global require drush/drush:dev-master && composer global require drupal/coder
 
-
 phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer && phpcs --config-set colors 1
