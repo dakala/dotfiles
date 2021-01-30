@@ -67,14 +67,12 @@ brew install woff2
 # Install other useful binaries.
 brew install ack
 # brew install dark-mode
-brew install dnsmasq
 brew install git
 # brew install go
 brew install gpg1
 brew install gradle
 brew install htop
 brew install lynx
-brew install mariadb
 brew install mongodb
 brew install node
 brew install p7zip
@@ -88,6 +86,25 @@ brew install vbindiff
 brew install watchman
 brew install yarn
 brew install zopfli
+
+# https://getgrav.org/blog/macos-bigsur-apache-multiple-php-versions
+# web dev tools
+brew install openssl
+brew install httpd
+
+brew tap shivammathur/php
+
+brew install shivammathur/php/php@5.6
+brew install shivammathur/php/php@7.0
+brew install shivammathur/php/php@7.1
+brew install shivammathur/php/php@7.2
+brew install shivammathur/php/php@7.3
+brew install shivammathur/php/php@7.4
+brew install shivammathur/php/php@8.0
+
+brew install mariadb
+brew install dnsmasq
+
 
 # More binaries
 # Install cask
