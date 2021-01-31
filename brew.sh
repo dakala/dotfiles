@@ -106,52 +106,51 @@ brew install dnsmasq
 
 # More binaries
 # Install cask
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 # Install cask packages
 # System tools
-brew cask install android-platform-tools
-brew cask install android-sdk
-brew cask install android-studio
-brew cask install araxis-merge
-# brew cask install atom
-# brew cask install balsamiq-mockups
-# brew cask install evernote
-brew cask install firefox
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install macdown
-# brew cask install mysqlworkbench
-# brew cask install phpstorm
-brew cask install robo-3t
-brew cask install sequel-pro
-brew cask install skitch
-# brew cask install skype
-# brew cask install slack
-# brew cask install sourcetree
-brew cask install sqlitebrowser
-# brew cask install sublime-text
-brew cask install the-unarchiver
-# brew cask install vagrant
-# brew cask install vagrant-manager
-# brew cask install virtualbox
-# brew cask install visual-paradigm-ce
-brew cask install visual-studio-code
-# brew cask install webstorm
+brew install --cask android-platform-tools
+brew install --cask android-sdk
+brew install --cask android-studio
+brew install --cask araxis-merge
+# brew install --cask atom
+# brew install --cask balsamiq-mockups
+# brew install --cask evernote
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask iterm2
+# brew install --cask macdown
+# brew install --cask mysqlworkbench
+# brew install --cask phpstorm
+brew install --cask robo-3t
+brew install --cask sequel-pro
+brew install --cask skitch
+# brew install --cask skype
+# brew install --cask slack
+brew install --cask sourcetree
+brew install --cask sqlitebrowser
+# brew install --cask sublime-text
+brew install --cask the-unarchiver
+# brew install --cask vagrant
+# brew install --cask vagrant-manager
+# brew install --cask virtualbox
+# brew install --cask visual-paradigm-ce
+brew install --cask visual-studio-code
+# brew install --cask webstorm
 
 # media
-# brew cask install airparrot
-# brew cask install amazon-music
-# brew cask install bbc-iplayer-downloads
-brew cask install recordit
-# brew cask install transmission
-brew cask install vlc
-# brew cask install whatsapp
+# brew install --cask airparrot
+brew install --cask amazon-music
+# brew install --cask bbc-iplayer-downloads
+brew install --cask recordit
+# brew install --cask transmission
+brew install --cask vlc
+# brew install --cask whatsapp
 
 # languages & tools
-# brew cask install go-agent
-# brew cask install go-server
-brew cask install java
+# brew install --cask go-agent
+# brew install --cask go-server
 
 # Remove outdated versions from the cellar.
 brew cleanup
