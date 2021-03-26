@@ -28,8 +28,8 @@ brew install bash-completion2
 
 # dakala - Add the new shell to the list of legit shells
 sudo bash -c "echo /usr/local/bin/bash >> /private/etc/shells"
-# dakala - Change the shell for the user - no need to do: sudo chsh -s /usr/local/bin/bash????
-chsh -s /usr/local/bin/bash
+# dakala - Change the shell for the user
+#chsh -s /usr/local/bin/bash
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
@@ -72,7 +72,8 @@ brew install gs
 # brew install lua
 brew install lynx
 brew install mongodb
-brew install node
+#brew install node
+brew install nvm
 brew install p7zip
 brew install rename
 brew install rhino
@@ -103,7 +104,6 @@ brew install shivammathur/php/php@8.0
 brew install mariadb
 brew install dnsmasq
 
-
 # More binaries
 # Install cask
 brew tap homebrew/cask
@@ -126,11 +126,12 @@ brew install --cask iterm2
 brew install --cask robo-3t
 brew install --cask sequel-pro
 brew install --cask skitch
-# brew install --cask skype
-# brew install --cask slack
+brew install --cask skype
+brew install --cask slack
 brew install --cask sourcetree
 brew install --cask sqlitebrowser
 # brew install --cask sublime-text
+brew install --cask tableplus
 brew install --cask the-unarchiver
 # brew install --cask vagrant
 # brew install --cask vagrant-manager
@@ -146,7 +147,7 @@ brew install --cask amazon-music
 brew install --cask recordit
 # brew install --cask transmission
 brew install --cask vlc
-# brew install --cask whatsapp
+brew install --cask whatsapp
 
 # languages & tools
 # brew install --cask go-agent
