@@ -117,6 +117,7 @@ brew install --cask android-studio
 brew install --cask araxis-merge
 # brew install --cask atom
 # brew install --cask balsamiq-mockups
+brew install --cask docker
 # brew install --cask evernote
 brew install --cask firefox
 brew install --cask google-chrome
