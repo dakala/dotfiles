@@ -72,7 +72,10 @@ brew install gs
 # brew install lua
 brew install lynx
 brew install mkcert
-brew install mongodb
+
+brew tap mongodb/brew
+brew install mongodb-community@4.4
+
 #brew install node
 brew install nss
 brew install nvm
