@@ -80,6 +80,7 @@ brew install rhino
 brew install speedtest_cli
 brew install rlwrap
 brew install ssh-copy-id
+brew install starship
 brew install tree
 brew install vbindiff
 brew install watchman
