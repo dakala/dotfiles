@@ -73,6 +73,12 @@ When setting up a new Mac, you may want to set some sensible macOS defaults:
 ./.macos
 ```
 
+or, for minimal defaults:
+
+```bash
+./.macos-mini
+```
+
 ### Install Homebrew formulae
 
 When setting up a new Mac, you may want to install some common [Homebrew](https://brew.sh/) formulae (after installing Homebrew, of course):
