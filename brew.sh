@@ -22,20 +22,20 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
-# Install a modern version of Bash.
-brew install bash
-brew install bash-completion2
+## Install a modern version of Bash.
+#brew install bash
+#brew install bash-completion2
 
-# dakala - Add the new shell to the list of legit shells
-sudo bash -c "echo /usr/local/bin/bash >> /private/etc/shells"
-# dakala - Change the shell for the user
+## dakala - Add the new shell to the list of legit shells
+#sudo bash -c "echo /usr/local/bin/bash >> /private/etc/shells"
+# dakala - Change the shell for the user.
 #chsh -s /usr/local/bin/bash
 
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
-  echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
-  chsh -s "${BREW_PREFIX}/bin/bash";
-fi;
+## Switch to using brew-installed bash as default shell
+#if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
+#  echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
+#  chsh -s "${BREW_PREFIX}/bin/bash";
+#fi;
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
